@@ -1,6 +1,7 @@
 # Lite API
 
 Simple litestar CRUD operations with users
+
 Clone repo:
 ```
 git clone https://github.com/rust3r/liteapi.git
