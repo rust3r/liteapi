@@ -16,7 +16,7 @@ docker-compose up -d
 
 Install dependencies
 ```
-poetry install
+poetry install --no-root
 ```
 Run server
 ```
