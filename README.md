@@ -5,7 +5,7 @@ Simple litestar CRUD operations with users
 ## Run in docker
 
 ```
-git clone
+git clone https://github.com/rust3r/liteapi.git
 ```
 
 ```
