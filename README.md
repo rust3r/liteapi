@@ -1,15 +1,23 @@
 # Lite API
 
 Simple litestar CRUD operations with users
-
-## Run in docker
-
 Clone repo:
 ```
 git clone https://github.com/rust3r/liteapi.git
 ```
 
-Run:
+## Run in docker
 ```
 docker-compose up -d
+```
+
+## Run from source
+
+Install dependencies
+```
+poetry install
+```
+Run server
+```
+poetry run litestar run --reload
 ```
