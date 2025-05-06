@@ -18,6 +18,12 @@ Install dependencies
 ```
 poetry install --no-root
 ```
+
+Create new database in postgres:
+```
+CREATE DATABASE liteapi;
+```
+
 Run server
 ```
 poetry run litestar run --reload
