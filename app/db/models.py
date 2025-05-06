@@ -1,7 +1,5 @@
 from datetime import datetime
-from uuid import UUID
 
-# from advanced_alchemy.base import CommonTableAttributes
 from sqlalchemy import BigInteger, String, DateTime, MetaData
 from sqlalchemy.orm import Mapped, mapped_column, DeclarativeBase
 from sqlalchemy.sql import func
